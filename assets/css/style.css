@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.hero{
+font-size:4rem;
+    font-family: 'Press Start 2P', cursive;
+    color: #ff6600;
+    text-shadow:2px 4px 5px;
+}
+.navbar{
+background-color:#660044;
+}
+.w-100 {
+  width: 100% !important;
+  height: 75vh;
+}
+.home {
+font-size:2rem;
+color: #660044;
+}
+body {
+padding-top:20px;
+}
+.about h2{
+font-size:3.5rem;
+color: #000000;
+text-shadow:2px 4px 5px;
+padding-left:2rem;
+}
+.about p{
+font-size:1.7rem;
+color: #1a1a1a;
+padding-top: 1.5rem;
+}
+.photo{
+padding-left:5rem;
+
+}
+
+.info {
+padding-top: 5rem;
+padding-left:5rem;
+}
+.info h2{
+font-size:3.5rem;
+text-shadow:2px 4px 5px;
+}
+.info p{
+font-size:1.7rem;
+color: #1a1a1a;
+padding-top:1.5rem;
+}
+.pic{
+padding-top: 7rem;
+}
+section{
+    padding:3rem 0;
+}section.contact .section-heading{
+    padding-bottom:2rem;
+}
+section.contact .input-wrap{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:2rem;
+    margin-bottom:2rem;
+}
+section.contact .input-wrap-2{
+    display:flex;
+    flex-direction:column;
+}
+section.contact .input-wrap-2 input{
+    margin-bottom:2rem;
+}
+section.contact .input{
+    padding:1rem;
+}
+section.contact .input-wrap-2 textarea{
+    padding:0.5rem;
+    margin-bottom:2rem;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+.footer{
+background-color:#660044;
+color:white;
+}
+.footer a{
+color:white;
+}
